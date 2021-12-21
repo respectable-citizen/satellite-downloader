@@ -117,7 +117,8 @@ async function downloadZoomLevel(zoom, threads = 32) {
     for (let zoomLevel = 0; zoomLevel < zoom; zoomLevel++) {
         if (!allMissingTiles[zoomLevel]) {
             try {
-                allMissingTiles[zoomLevel] = await fs.promises.readFile(`json/${zoomLevel}.json`);
+                let content = await fs.promises.readFile(`json/${zoomLevel}.json`);
+                allMissingTiles[zoomLevel] = JSON.parse(content.toString());
             } catch {
                 throw `Missing tiles dictionary isn't populated for zoom level ${zoomLevel}`;
             }
