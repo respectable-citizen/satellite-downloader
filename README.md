@@ -19,6 +19,7 @@ Ok, how about this. Put all the images onto a Raspberry Pi or something and code
 
 ## How do I convert tile coordinates to actual coordinates?
 https://developers.google.com/maps/documentation/javascript/coordinates
+
 https://stackoverflow.com/questions/23457916/how-to-get-latitude-and-longitude-bounds-from-google-maps-x-y-and-zoom-parameter
 
 ## What the fuck?
