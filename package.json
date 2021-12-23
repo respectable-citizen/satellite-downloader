@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "This is a script to download satellite images from Google Maps.",
   "main": "app.js",
-  "dependencies": {
-    "node-fetch": "^3.1.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smug-loli/satellite-downloader.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smug-loli/satellite-downloader/issues"
+  },
+  "homepage": "https://github.com/smug-loli/satellite-downloader#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.6"
+  }
 }
