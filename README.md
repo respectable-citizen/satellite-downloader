@@ -12,15 +12,7 @@ Ahaha, but do they have my special optimization system that drastically increase
 Did you pump up the number of threads like a power-hungry caveman? The API endpoint we are using limits the number of active connections, so too many threads will start throwing EADDRINUSE errors.
 Still broken? Make an issue or something.
 
-## How is this useful?
-Okok bear with me here. What if you stitch all the images together to make a giant image of the Earth which you can zoom in on to literally some random guys house? Oh? You need 600GB of RAM to load the image?
-
-Ok, how about this. Put all the images onto a Raspberry Pi or something and code a fancy flight system that will show where you are above the image, uh, and stuff. Imagine how jealous all the cannibals will be when they see you zooming around the skies after society collapses. Just, make it run on hydrogen or something so they don't kill you for using oil.
-
 ## How do I convert tile coordinates to actual coordinates?
 https://developers.google.com/maps/documentation/javascript/coordinates
 
 https://stackoverflow.com/questions/23457916/how-to-get-latitude-and-longitude-bounds-from-google-maps-x-y-and-zoom-parameter
-
-## What the fuck?
-¯\\\_(ツ)_/¯
